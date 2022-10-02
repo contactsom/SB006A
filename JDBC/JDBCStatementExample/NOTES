@@ -1,0 +1,71 @@
+1. Create the JAVA Project
+2. Set the Java version path as 8 is not already 
+3. Create the /lib folder.
+4. Place the jar file "mysql-connector-java-8.0.28.jar" in to /lib folder.
+5. Add the jar in to build path -> Right click on jar->Build Path-> add build path
+6. Referenced Libraries got added 
+
+
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sb006","root","root12345");
+
+
+Our Goal is :
+	Connect the JDBC to MySql to perform the Data base operaton (Insert/Update/Delete/Get)
+	
+1. jdbc -> Connect to the JDBC
+2. For which Database : mysql
+3. Where is MySql : In my System or 127.0.0.1 or localhost
+4. Where it is running or in which port it is running : 3306
+5. Which database Schema I need to select : sb006
+6. I need the Username and Password to connect with MySql " 
+	User Name : "root"
+	Password  : "root12345"
+
+
+
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. 
+The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+
+
+
+***********************
+
+
+
+TODO:
+
+stmt.execute vs stmt.executeupdate\
+
+
+
+
+	ResultSet rs = stmt.executeQuery("SELECT * FROM Employees");
+ 	int record= stmt.executeUpdate("INSERT INTO Employees VALUES (107, 24, 'Shikha', 'Singh')");
+  	int record= stmt.executeUpdate("UPDATE Employees SET firstName='sharjil' where id=107");
+  	int record= stmt.executeUpdate("DELETE from Employees where id=107");
+
+
+
+
+I have inserted one record successfully
+I have updated one record successfully
+I have deleted one record successfully
+
+
+LMS:
+PreparedStataement 
+Callable
+Project
+Concurrency
+
+
+
+
+
+
+
+
+
+
+
+
