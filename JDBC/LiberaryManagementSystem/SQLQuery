@@ -1,0 +1,30 @@
+USE sb007;
+
+		
+		
+CREATE TABLE BOOKS (
+
+	BOOK_ID int NOT NULL PRIMARY KEY,
+	BOOK_NAME varchar (255) NOT NULL,
+	BOOK_AUTHOR varchar (255),
+	BOOK_PUBLICATION varchar (255),
+	BOOK_PRICE int,
+	BOOK_ISBN int
+);
+
+select * from BOOKS;
+
+INSERT INTO BOOKS VALUES (?,?,?,?,?,?);
+
+
+CREATE TABLE USERS (
+	
+	USER_NAME varchar (255) NOT NULL,
+	USER_PASS varchar (255) NOT NULL
+	
+);
+
+INSERT INTO USERS VALUES ('admin','admin@1234');
+INSERT INTO USERS VALUES ('root','root@1234');
+
+SELECT * FROM USERS where USER_NAME = ? and USER_PASS = ?;

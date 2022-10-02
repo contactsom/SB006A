@@ -1,0 +1,10 @@
+com.mysql.cj.jdbc.exceptions.NotUpdatable: Result Set not updatable.
+This result set must come from a statement that was created with a 
+result set type of ResultSet.CONCUR_UPDATABLE, the query must select only one table, 
+can not use functions and must select all primary keys from that table. See the JDBC 2.1 API Specification,
+ section 5.6 for more details.
+	at com.mysql.cj.jdbc.result.ResultSetImpl.updateInt(ResultSetImpl.java:2407)
+	at com.simplilearn.concurrency.JDBCConcurrencyExample.main(JDBCConcurrencyExample.java:28)
+***** Error Occured while Updating the data 
+
+

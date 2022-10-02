@@ -1,0 +1,11 @@
+
+
+
+Relationship between Statement Vs PreparedStatement Vs CallableStatement
+
+
+public abstract interface java.sql.Statement {}
+
+public abstract interface java.sql.PreparedStatement extends java.sql.Statement { }
+
+public abstract interface java.sql.CallableStatement extends java.sql.PreparedStatement { }

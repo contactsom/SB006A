@@ -1,0 +1,17 @@
+
+show databases;
+
+Create database sb006;
+
+
+USE sb006;
+
+CREATE TABLE STUDENT(
+     	STU_ID int NOT NULL PRIMARY KEY,
+     	STU_AGE int NOT NULL,
+    	STU_FNAME varchar (255),
+     	STU_LAST varchar (255)
+     );
+INSERT INTO STUDENT VALUES (100, 21, 'JACK', 'EDITION');
+
+UPDATE STUDENT SET STU_FNAME="ABC" WHERE STU_ID=103;
