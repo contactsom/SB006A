@@ -1,0 +1,106 @@
+
+what is the purpose of hibernate differenet from jDBC
+
+
+sir jar file based on project
+
+
+
+
+for string no need to declare TYPE
+we no need to mention the type for varchar
+
+
+
+
+Steps For Hibernate Pfoject :
+1. Create the JAVA Project 
+2. Create the /lib folder .
+3. Place the Jar's file in to /lib folder [Total 14  Jars]
+4. Select all the jar's and add to build path 
+5. Place the file "hibernate.cfg.xml" in to /src folder *
+	=> This file contain the configuration related to MySql DB Connection
+	https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
+6. Create the POJO Class
+7. Place the "*.hbm" file in to the same package where POJO Class are abalable 
+8. HBM File name should be like - <POJO-CLASS-NAME>.hbm.xml
+	
+	
+string Type in Hibernate ;
+***************************
+1. In hibernate STRING data Type denoted as "string"
+2. Providing the data Types string is optional.
+
+
+
+
+POJO Class
+	Student.java
+	
+Entity Class or Persistance Class
+	Student.java + Student.hbm.xml
+
+
+
+
+
+*******START-StudentClient********* 
+log4j:WARN No appenders could be found for logger (org.hibernate.cfg.Environment).
+log4j:WARN Please initialize the log4j system properly.
+---------1. Create the Configuration Object---------
+---------2. Call the Configure Method---------
+---------3. Through the COnfiguration Object call the Build Session Factory---------
+---------4. With the factory object open the session---------
+---------5. With the help of Session object begin the transaction ---------
+---------6. Prepare the  Business Object ---------
+---------7. Save the Data ---------
+Hibernate: insert into STUDENT_DETAILS (STUDENT_NAME, STUDENT_EMAIL, STUDENT_PHONE, STUDENT_ID) values (?, ?, ?, ?)
+---------8. Commit in to DB ---------
+---------9. Close the Resourse ---------
+*****END-StudentClient**** 
+
+
+
+
+insert into STUDENT_DETAILS (STUDENT_NAME, STUDENT_EMAIL, STUDENT_PHONE, STUDENT_ID) values (?, ?, ?, ?)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

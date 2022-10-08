@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.employee">
+	
+	<class name="Employee" table="EMPLOYEE_DETAILS">
+
+		<id name="empid" column="EMPLOYEE_ID" type="int">	
+		<generator class="increment" />	
+		</id>	
+			
+		<property name="empname"  column="EMPLOYEE_NAME" />
+		<property name="empemail"  column="EMPLOYEE_EMAIL" type="string"/>
+		<property name="empaddress"  column="EMPLOYEE_ADDRESS" />
+		<property name="empsalery"  column="EMPLOYEE_SALARY" type="long"/>
+		<property name="empdesignation"  column="EMPLOYEE_DESIGNATION" />
+	</class>
+</hibernate-mapping>
+
+
