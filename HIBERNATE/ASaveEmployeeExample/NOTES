@@ -1,0 +1,48 @@
+Hibernate: 
+    select
+        EMPLOYEE_ID,
+        EMPLOYEE_ADDRESS ,
+        EMPLOYEE_DESIGNATION ,
+        EMPLOYEE_EMAIL,
+        EMPLOYEE_NAME ,
+        EMPLOYEE_SALARY 
+    from
+        AEMPLOYEE_DETAILS 
+    where
+        EMPLOYEE_ID=?
+        
+        
+        
+        
+EMPLOYEE ID : 1 EMPLOYEE NAME : Vijay EMPLOYEE EMAIL : vijay@simplilearn.com EMPLOYEE ADDRESS : 3rd Cross, 5Th main , Noida EMPLOYEE DESIGNATION : CEO EMPLOYEE SALARY : 9000
+EMPLOYEE ID : 2 EMPLOYEE NAME : Madhu EMPLOYEE EMAIL : madhu@simplilearn.com EMPLOYEE ADDRESS : 2rd Cross, 1Th main , Chennai EMPLOYEE DESIGNATION : CFO EMPLOYEE SALARY : 8000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

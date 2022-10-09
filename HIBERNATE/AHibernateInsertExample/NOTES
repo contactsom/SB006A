@@ -1,0 +1,51 @@
+<property name="format_sql">true</property>
+
+
+Hibernate: 
+    insert 
+    into
+        CUSTOMER_INFO
+        (CUSTOMER_BAL, CUSTOMER_CITY, CUSTOMER_EMAIL, CUSTOMER_NAME, CUSTOMER_PHONE) 
+    values
+        (?, ?, ?, ?, ?)
+
+*******************************************
+
+<property name="format_sql">false</property>
+
+Hibernate: insert into CUSTOMER_INFO (CUSTOMER_BAL, CUSTOMER_CITY, CUSTOMER_EMAIL, CUSTOMER_NAME, CUSTOMER_PHONE) values (?, ?, ?, ?, ?)
+
+
+
+
+BREAK : 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

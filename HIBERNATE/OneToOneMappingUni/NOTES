@@ -1,0 +1,61 @@
+Mapping 
+One to One Mapping 
+One to many Mapping 
+Many to One Mapping
+Many to Many Mapping 
+
+Two Part
+	1. Uni Directional Mapping 
+	2. Bi-Directional Mapping 
+
+Using XML and Annotation 
+*************************
+
+1. One to One Uni Directional Mapping 
+2. One to many Uni Directional Mapping 
+3. Many to One Uni Directional Mapping 
+4. Many to Many Uni Directional Mapping 
+
+1. One to One Bi-Directional Mapping 
+2. One to many Bi-Directional Mapping 
+3. Many to One Bi-Directional Mapping 
+4. Many to Many Bi-Directional Mapping 
+
+****************************************************************************************
+
+1. One to One Uni Directional Mapping 
+
+Student 
+Address
+
+1. One Student have One address - True
+2. One Address belongs to One Student - False
+
+In Hibernate For One to ONe mapping <many-to-one> tag is given
+<many-to-one name="" class="" column=""/>
+
+
+insert into ADDRESS_INFO (STREET, CITY, STATE, ADDRESS_ID) values (?, ?, ?, ?)
+insert into STUDENT_INFO (STUDENT_NAME, STUDENT_EMAIL, STUDENT_PHONE, aid, STUDENT_ID) values (?, ?, ?, ?, ?)
+
+
+***********************************************
+
+
+1. One Student have One address - True/ YES
+2. One Citizen have One Passport - True 
+
+
+
+
+
+
+Passport 
+
+
+
+
+
+
+
+
