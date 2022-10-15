@@ -1,0 +1,23 @@
+One to One Bi Directional Mapping Using XML.
+
+
+Student 	Address 
+
+1. One Student have One address - True
+2. This Address belongs to One Student - True
+
+*************************************************
+
+Student.java
+	Address address;
+<many-to-one name="address" class="Address" column="aid"/>
+
+Address.java
+	Student student;
+<one-to-one name="student" class="Student"/>
+
+
+
+Table :
+ADDRESS_INFO_BI
+STUDENT_INFO_BI

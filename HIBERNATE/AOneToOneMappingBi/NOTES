@@ -1,0 +1,81 @@
+
+
+--> A_ADDRESS_INFO_BI to A_STUDENT_INFO_BI
+Address.java
+	@OneToOne (cascade = CascadeType.ALL)
+	@JoinColumn(name="STUDENT_ID")
+	Student student; /*One to One Mapping-Bi This Address belongs to One Student */
+	
+Student.java
+	@OneToOne(mappedBy = "student")
+	Address address;/*One to One Mapping - One Student have One address*/
+	
+	
+***********  Home Work *********** 
+
+--> A_STUDENT_INFO_BI to A_ADDRESS_INFO_BI
+
+Student.java
+	@OneToOne (cascade = CascadeType.ALL)
+	@JoinColumn(name="ADDRESS_ID")
+	Address address; /*One to One Mapping-Bi This Address belongs to One Student */
+	
+Address.java
+	@OneToOne(mappedBy = "address")
+	Student student;/*One to One Mapping - One Student have One address*/
+
+
+****************************
+
+
+
+
+Uni - Bi
+
+Bi Directional
+--------------
+Student.java
+	Address.java
+	
+
+Address.java
+	Student.java
+
+*************************	
+
+Uni- Directional
+--------------	
+Student.java
+	
+Address.java
+	Student.java
+
+
+
+Uni- Directional
+--------------
+Student.java
+	Address.java
+	
+Address.java
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

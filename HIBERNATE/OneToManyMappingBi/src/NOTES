@@ -1,0 +1,14 @@
+One To Many Mapping Bi - Directional Using XML
+*********************************************
+
+Customer 	Order 
+
+1. One customer can have multiples orders. - True
+	Mapping -> One To Many Uni Directional - True
+	
+2. Multiple order belongs to one Customer  - True
+	Mapping -> Many To One Uni Directional - True
+
+Bi Directional is the combination of , More than one Uni Directional Mapping - True/False
+
+
