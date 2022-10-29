@@ -1,0 +1,70 @@
+10:21:37,025  INFO Environment:456 - Hibernate 3.0rc1
+10:21:37,029  INFO Environment:469 - hibernate.properties not found
+10:21:37,030  INFO Environment:502 - using CGLIB reflection optimizer
+10:21:37,032  INFO Environment:532 - using JDK 1.4 java.sql.Timestamp handling
+10:21:37,034  INFO Configuration:1228 - configuring from resource: /hibernate.cfg.xml
+10:21:37,034  INFO Configuration:1199 - Configuration resource: /hibernate.cfg.xml
+10:21:37,125  INFO Configuration:439 - Mapping resource: com/simplilearn/mapping/Customer.hbm.xml
+10:21:37,219  INFO HbmBinder:256 - Mapping class: com.simplilearn.mapping.Customer -> LOG_CUSTOMER_DETAILS
+10:21:37,233  INFO Configuration:1340 - Configured SessionFactory: null
+10:21:37,234  INFO Configuration:844 - processing extends queue
+10:21:37,234  INFO Configuration:848 - processing collection mappings
+10:21:37,235  INFO Configuration:857 - processing association property references
+10:21:37,235  INFO Configuration:884 - processing foreign key constraints
+10:21:37,296  INFO Dialect:89 - Using dialect: org.hibernate.dialect.MySQLDialect
+10:21:37,300  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+10:21:37,302  INFO SettingsFactory:90 - Default batch fetch size: 1
+10:21:37,302  INFO SettingsFactory:94 - Generate SQL with comments: disabled
+10:21:37,302  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+10:21:37,302  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+10:21:37,303  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+10:21:37,304  INFO SettingsFactory:106 - Query language substitutions: {}
+10:21:37,306  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+10:21:37,307  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+10:21:37,307  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+10:21:37,393  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/sb006
+10:21:37,393  INFO DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+10:21:38,211  INFO SettingsFactory:148 - JDBC batch size: 15
+10:21:38,213  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+10:21:38,213  INFO SettingsFactory:156 - Scrollable result sets: enabled
+10:21:38,213  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+10:21:38,214  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+10:21:38,215  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+10:21:38,215  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+10:21:38,215  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+10:21:38,215  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+10:21:38,217  INFO SettingsFactory:187 - Second-level cache: enabled
+10:21:38,217  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+10:21:38,217  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+10:21:38,217  INFO SettingsFactory:203 - Query cache: disabled
+10:21:38,217  INFO SettingsFactory:210 - Echoing all SQL to stdout
+10:21:38,217  INFO SettingsFactory:214 - Statistics: disabled
+10:21:38,217  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+10:21:38,218  INFO SettingsFactory:232 - Default entity-mode: pojo
+10:21:38,402  INFO SessionFactoryImpl:140 - building session factory
+10:21:38,405  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/Users/om/SB006A/HIBERNATE/HibernateLogProperties/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+10:21:38,520  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+10:21:38,522  INFO Dialect:89 - Using dialect: org.hibernate.dialect.MySQLDialect
+10:21:38,522  INFO Configuration:844 - processing extends queue
+10:21:38,522  INFO Configuration:848 - processing collection mappings
+10:21:38,522  INFO Configuration:857 - processing association property references
+10:21:38,522  INFO Configuration:884 - processing foreign key constraints
+10:21:38,523  INFO Configuration:844 - processing extends queue
+10:21:38,523  INFO Configuration:848 - processing collection mappings
+10:21:38,523  INFO Configuration:857 - processing association property references
+10:21:38,523  INFO Configuration:884 - processing foreign key constraints
+10:21:38,523  INFO SchemaExport:100 - Running hbm2ddl schema export
+10:21:38,524  INFO SchemaExport:121 - exporting generated schema to database
+10:21:38,524  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+10:21:38,524  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+10:21:38,524  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+10:21:38,524  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/sb006
+10:21:38,524  INFO DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+10:21:38,627  INFO SchemaExport:166 - schema export complete
+10:21:38,631  INFO DriverManagerConnectionProvider:147 - cleaning up connection pool: jdbc:mysql://localhost:3306/sb006
+10:21:38,633  INFO SessionFactoryImpl:366 - Checking 0 named queries
+10:21:38,668 DEBUG StringType:59 - binding 'Prajwal' to parameter: 1
+10:21:38,669 DEBUG StringType:59 - binding 'prajwal@simplilearn.com' to parameter: 2
+10:21:38,674 DEBUG DateType:59 - binding '29 October 2022' to parameter: 3
+10:21:38,692 DEBUG LongType:59 - binding '12345' to parameter: 4
+10:21:38,692 DEBUG IntegerType:59 - binding '1' to parameter: 5
