@@ -1,0 +1,5 @@
+http://localhost:8080/StudentRegFormHttpServlet/
+
+
+http://localhost:8080/StudentRegFormHttpServlet/hire-from-us
+	?firstname=Deekshith&lastname=Erukulla&emailId=Harsh%40simplilearn.com&password=09876

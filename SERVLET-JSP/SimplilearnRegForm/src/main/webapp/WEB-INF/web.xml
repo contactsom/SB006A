@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>SimplilearnRegForm</display-name>
+  <welcome-file-list>
+    <welcome-file>simplilearnregform.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+  	<description> This is Simplilearn Registration Form Servlet description</description>
+  	<display-name>Simplilearn Registration</display-name>
+  	<servlet-name>SimplilearnRegistration</servlet-name>
+  	<servlet-class>com.simplilearn.servlet.SimplilearnRegServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SimplilearnRegistration</servlet-name>
+  <url-pattern>/become-our-trainers</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
